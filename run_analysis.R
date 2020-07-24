@@ -1,5 +1,4 @@
-file_path <- file.path("./data" , "UCI HAR Dataset")
-file_list <- list.files(file_path, recursive=TRUE)
+
 
 a  <- read.table("Y_test.txt")
 b <- read.table(Y_train.txt")
